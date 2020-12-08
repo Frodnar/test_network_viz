@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://raw.githubusercontent.com/Frodnar/frodnar.github.io/master/favicon-32x32.png",
+    "link": "",
+    "text": "Chris Roberts"
+  },
+  "text": {
+    "more": "For the 20 most-cited COVID-19 publications in 2020, this network graph represents co-authorship linkages. Darker colors represent fewer steps to author Song Jingdong.",
+    "intro": "For the 20 most-cited COVID-19 publications in 2020, this network graph represents co-authorship linkages.",
+    "title": "Co-author Distance to Song Jingdong in Top 20 Cited COVID-19 Publications"
+  },
+  "legend": {
+    "edgeLabel": "Co-authorship",
+    "colorLabel": "Distance to Song Jingdong",
+    "nodeLabel": "Author"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
