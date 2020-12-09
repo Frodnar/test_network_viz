@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "Created by Christopher Roberts with data published by Dimensions.ai that contains all 2020 articles and preprints from the Dimensions.ai database related to COVID-19. \n\nData extracted in Google BigQuery, analyzed with the metaknowledge package in Python, visualized with Gephi, and deployed with SigmaJS on GitHub Pages.",
-    "intro": "For the 200 most-cited COVID-19 publications in 2020, this network graph represents co-authorship linkages.  Nodes are colored by step distance form an arbitrarily selected terminal node.",
+    "intro": "For the 200 most-cited COVID-19 publications in 2020, this network graph represents co-authorship linkages.  Nodes are colored by step distance form an arbitrarily selected terminal node.\n\nTry searching by author name below for the Director of NIH, Robert Redfield. ",
     "title": "Co-author Network Visualization for the Top 200 Most Cited COVID-19 Publications of 2020"
   },
   "legend": {
