@@ -5,16 +5,16 @@
   "logo": {
     "file": "https://raw.githubusercontent.com/Frodnar/frodnar.github.io/master/favicon-32x32.png",
     "link": "",
-    "text": "Chris Roberts"
+    "text": "Christopher Roberts"
   },
   "text": {
-    "more": "Created by Christopher Roberts with data published by Dimensions.ai that contains all 2020 articles and preprints from the Dimensions.ai database related to COVID-19.  Data extracted in BigQuery, analyzed with the metaknowledge package in Python, and deployed using Gephi.",
-    "intro": "For the 20 most-cited COVID-19 publications in 2020, this network graph represents co-authorship linkages. Darker colors represent fewer steps to author Song Jingdong.",
-    "title": "Co-author Distance to Song Jingdong in Top 20 Cited COVID-19 Publications"
+    "more": "Created by Christopher Roberts with data published by Dimensions.ai that contains all 2020 articles and preprints from the Dimensions.ai database related to COVID-19. \n\nData extracted in Google BigQuery, analyzed with the metaknowledge package in Python, visualized with Gephi, and deployed with SigmaJS on GitHub Pages.",
+    "intro": "For the 200 most-cited COVID-19 publications in 2020, this network graph represents co-authorship linkages.  Nodes are colored by step distance form an arbitrarily selected terminal node.",
+    "title": "Co-author Network Visualization for the Top 200 Most Cited COVID-19 Publications of 2020"
   },
   "legend": {
     "edgeLabel": "Co-authorship",
-    "colorLabel": "Distance to Song Jingdong",
+    "colorLabel": "Distance from terminal graph node",
     "nodeLabel": "Author"
   },
   "features": {
